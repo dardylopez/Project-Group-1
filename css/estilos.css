@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Englebert');
+
+
+
+body,
+.text-title {
+    margin-top: 20px;
+    font-family: Englebert, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+   
+}
+
+.text-menu {
+  background-color: white;
+}
+
+.content-header {
+  --bs-gutter-x: 0 !important;
+  background-color: #323232;
+
+  height: 80px;
+  width: 100%;
+}
+.content-btn-menu {
+  margin-top: 20px;
+}
+
+.content-slider {
+    width: 70% !important;
+    margin-top: 30px;
+}
+
+/**** Estiloso para Menu lateral ****/
+.offcanvas-end {
+    width: 300px !important;
+}
+
+.content-menu {
+    border-color: rgb(25, 25, 25);
+    background-color: rgb(25, 25, 25);
+}
+
+/*****ESTILOS PARA EL FORMULARIO DE REGISTRO registro.html*****/
+
+#form-registro{
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background: #fffcf2;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    font-family: Englebert, sans-serif;
+    
+}
+
+#header-form-registro{
+    display: flex;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    
+}
+
+#masculino, #femenino{
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#nombre, #genero, #telefono, #direccion, #correo, #contrasena{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: lightgray;
+    border-style: none;
+    height: 25px;
+    width: 500px;
+}
+
+#btn-submit-form{
+    display: block;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    border-style: none;
+    text-size-adjust: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: whitesmoke;
+}
